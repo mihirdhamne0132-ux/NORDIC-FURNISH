@@ -1,0 +1,33 @@
+
+.ikea-logo {
+    color: #0058A3;
+    font-size: 28px;
+}
+
+.hero-section {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c");
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-warning {
+    background-color: #FFDA1A;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #e6c500;
+}
+
+.promo-section {
+    background-color: #0058A3;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
