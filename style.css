@@ -1,33 +1,87 @@
-
-.ikea-logo {
-    color: #0058A3;
-    font-size: 28px;
+body {
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.hero-section {
-    height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c");
-    background-size: cover;
-    background-position: center;
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/Users/mihirdhamne/Documents/Projects/Nordic Furnish/images/hero.jpg") center / cover no-repeat;
+  height: 70vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.btn-warning {
-    background-color: #FFDA1A;
-    border: none;
-    color: black;
-    font-weight: bold;
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
 }
 
-.btn-warning:hover {
-    background-color: #e6c500;
+.navbar i {
+  margin-right: 5px;
+  font-size: 18px;
 }
 
-.promo-section {
-    background-color: #0058A3;
+.navbar a {
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.card img {
-    height: 250px;
-    object-fit: cover;
+.text-center a:hover {
+  color: #000;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.carousel img {
+  height: 450px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel img {
+    height: 300px;
+  }
+}
+
+.card .carousel img {
+  height: 280px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .card .carousel img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card .carousel img {
+    height: 180px;
+  }
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.card {
+  border: none;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card {
+  border: none;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  font-weight: 600;
 }
